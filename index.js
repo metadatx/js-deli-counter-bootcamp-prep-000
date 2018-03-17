@@ -9,6 +9,5 @@ function nowServing(deliLine){
     return `Currently serving ${firstInLine}.`
   }
   else
-    return ""
-    
+    return "There is nobody waiting to be served!"
 }
