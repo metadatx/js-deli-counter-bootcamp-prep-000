@@ -24,6 +24,7 @@ function currentLine(katzDeliLine){
         lineInfo.concat( `${i+1}. ${katzDeliLine[i]}`);
       }
     }
+    return lineInfo
   }
   else{
     return "The line is currently empty."
