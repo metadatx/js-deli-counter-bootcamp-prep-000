@@ -14,6 +14,7 @@ function nowServing(deliLine){
 
 function currentLine(katzDeliLine){
   var lineLen = deliLine.length
+  var lineInfo = ""
   if(lineLen > 0){
     `
   }
