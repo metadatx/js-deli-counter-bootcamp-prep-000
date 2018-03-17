@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
 function nowServing(deliLine){
   if(deliLine.length > 0){
     var firstInLine = deliLine.shift()
-    return 
+    return `string text`
   }
     
 }
