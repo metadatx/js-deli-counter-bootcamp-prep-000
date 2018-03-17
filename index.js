@@ -14,14 +14,14 @@ function nowServing(deliLine){
 
 function currentLine(katzDeliLine){
   var lineLen = katzDeliLine.length
-  var lineInfo = "The line is currently: "
+  var result [""]
   if(lineLen > 0){
     for(var i= 0; i<lineLen; i++){
       if(i < lineLen-1){
-        lineInfo.concat( `${i+1}. ${katzDeliLine[i]}, `)
+        lineInfo = lineDesc.concat( `${i+1}. ${katzDeliLine[i]}, `)
       }
       else{
-        lineInfo.concat( `${i+1}. ${katzDeliLine[i]}`)
+        lineInfo = lineDesc.concat( `${i+1}. ${katzDeliLine[i]}`)
       }
     }
     return lineInfo
